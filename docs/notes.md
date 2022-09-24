@@ -58,3 +58,6 @@ https://dev.to/devalnor/running-jsx-in-your-browser-without-babel-1agc
 <script src="https://unpkg.com/htm@2.2.1" crossorigin></script>
 
 https://github.com/dataformsjs/dataformsjs/blob/master/docs/jsx-loader.md
+
+
+https://stackoverflow.com/questions/30280370/how-does-content-security-policy-csp-work

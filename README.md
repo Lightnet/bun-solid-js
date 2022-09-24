@@ -10,6 +10,12 @@
 
   The only possible way is html format buildless set up.
 
+  Note that cors or Content-Security-Policy just for dev testing since. unsafe-eval is not good.
+
+```
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'nonce-n0nce'" />
+```
+
 # Notes:
   - websocket on server is not added from Bun runtime.
   - Bun.Transpiler({ loader: "jsx"}); not working and partly working.
