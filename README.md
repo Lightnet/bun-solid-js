@@ -1,8 +1,14 @@
 
+# Status:
+- prototype
+- tests
+
 # Package / Program:
  - Bun 0.1.8 beta
 
 # Information:
+
+  simple but buildless solid-js with bun http server.
 
   Current solid-js is not possible to compile jsx to js.
 
@@ -15,6 +21,9 @@
 ```
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'nonce-n0nce'" />
 ```
+
+# Test build:
+- https://codedamn.com/playground/VK-TpLw8x2K9LjsG1WQ7a
 
 # Notes:
   - websocket on server is not added from Bun runtime.
