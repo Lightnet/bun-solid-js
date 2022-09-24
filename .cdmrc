@@ -1,0 +1,4 @@
+tabs: ['bunserver.js']
+baseImage: 'bun'
+defaultView: 'terminal-editor-browser'
+terminal-one: bun install && bun run bunserver.js

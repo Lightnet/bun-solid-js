@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="solid-js render dev build">
+  <meta name="keywords" content="HTML, Javascript, solid-js ">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-n0nce'" />
+  <script async src="https://unpkg.com/es-module-shims@1.5.9/dist/es-module-shims.js" nonce="n0nce"></script>
+  <script type="importmap" nonce="n0nce">
+    {
+      "imports":{
+        "solid-js":"https://unpkg.com/solid-js@1.5.6/dist/solid.js",
+        "solid-js/web":"https://unpkg.com/solid-js@1.5.6/web/dist/web.js",
+        "solid-js/h":"https://unpkg.com/solid-js@1.5.6/h/dist/h.js",
+        "solid-js/jsx-runtime":"https://unpkg.com/solid-js@1.5.6/h/jsx-runtime/dist/jsx.js",
+        "solid-js/html":"https://unpkg.com/solid-js@1.5.6/html/dist/html.js"
+      }
+    }
+    </script>
+</head>
+<body>
+  <div id="app"></div>
+  <script async type="module" src="client.js" nonce="n0nce"></script>
+  <script async type="text/javascript"  nonce="n0nce">  
+  /*
+    var content = document.getElementById('content');
+    console.log(location.host)
+    var socket = new WebSocket('ws://'+location.host);
+    socket.onopen = function () {
+      socket.send('hello from the client');
+    };
+
+    socket.onmessage = function (message) {
+      content.innerHTML += message.data +'<br />';
+    };
+
+    socket.onerror = function (error) {
+      console.log('WebSocket error: ' + error);
+    };
+    */
+  </script>
+</body>
+</html>

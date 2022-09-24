@@ -1,0 +1,21 @@
+{
+  "name": "bun-solid-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon nodeserver.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/standalone": "^7.19.2",
+    "babel-preset-solid": "^1.5.6",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "solid-js": "^1.5.6"
+  }
+}
