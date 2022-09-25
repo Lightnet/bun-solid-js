@@ -22,6 +22,8 @@
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'nonce-n0nce'" />
 ```
 
+  Nodejs test for simple solid build test.
+
 # Test build:
 - https://codedamn.com/playground/VK-TpLw8x2K9LjsG1WQ7a
 
